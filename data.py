@@ -5,7 +5,7 @@ from torchvision import transforms
 from torchvision.datasets import MNIST 
 import pytorch_lightning as pl
 
-
+# All data handling is done in this class
 class ImageDataModule(pl.LightningDataModule):
     def __init__(self):
         super().__init__()
